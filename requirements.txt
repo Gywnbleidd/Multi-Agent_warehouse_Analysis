@@ -7,3 +7,9 @@ snowflake-sqlalchemy
 SQLAlchemy
 pandas
 python-dotenv
+langchain
+llama-index
+llama-index-embeddings-gemini
+llama-index-core
+starlette
+langchain-google-genai

@@ -1,7 +1,8 @@
 from fastapi import APIRouter
+
 from config import settings
-from schemas.system import HealthCheckResponse, SystemStatusResponse, SystemInfoResponse
 from database import test_snowflake_connection
+from schemas.system import HealthCheckResponse, SystemInfoResponse, SystemStatusResponse
 
 router = APIRouter(tags=["Health and System"], prefix="/system")
 
