@@ -1,8 +1,0 @@
-{
-    "python-envs.defaultEnvManager": "ms-python.python:system",
-    "python-envs.defaultPackageManager": "ms-python.python:pip",
-    "python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
-    "editor.hover.enabled": "on",
-    "editor.parameterHints.enabled": true,
-    "editor.suggestOnTriggerCharacters": true
-}

@@ -1,0 +1,34 @@
+# === VS Code / IDEs ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# === Python / Environment / Packages ===
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.uv/
+
+# === Environment Variables / Secrets (CRITICAL FOR SNOWFLAKE) ===
+.env
+.env.local
+.env.*
+secrets.toml
+*.pem
+*.key
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
